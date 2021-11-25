@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners_popup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="Daily Limit"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="App Name"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/appNameTextField_PopupWindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:singleLine="true"
+            android:editable="false"
+            android:textSize="14dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time Limit (in minutes, 0 = No limit)"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/appTimeLimitTextField_PopupWindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textSize="14dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/setLimitButton_PopupWindow"
+        style="?android:attr/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/sign_in_button"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="18dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Set Limit" />
+</LinearLayout>

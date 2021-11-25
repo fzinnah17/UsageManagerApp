@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <Button
+            android:id="@+id/exportToCSV_SettingsFrag"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#55Be6d"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/roboto_medium"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:textSize="20dp"
+            android:text="Export to CSV" />
+
+
+        <Button
+            android:id="@+id/resetAllLimits_SettingsFrag"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#ef3c3c"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/roboto_medium"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:textSize="20dp"
+            android:text="Reset All Limits" />
+
+    </LinearLayout>
+
+</RelativeLayout>

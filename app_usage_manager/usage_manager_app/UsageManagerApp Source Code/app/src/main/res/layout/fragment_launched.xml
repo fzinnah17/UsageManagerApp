@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.LaunchedFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+        <com.liteappz.appusage2.ArcProgress
+            android:id="@+id/launchTimesArcProgress_LaunchedFrag"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            custom:arc_central_text="1h 35m 3s"
+            custom:arc_central_text_size="20dp"
+            custom:arc_text_color="#FFFFFF"
+            custom:arc_progress="100"
+            custom:arc_bottom_text="LAUNCH TIMES"/>
+
+        <com.liteappz.appusage2.ArcProgress
+            android:id="@+id/highestNumberOfLanuchesArcProgress_LaunchedFrag"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            custom:arc_bottom_text=""
+            custom:arc_bottom_text_size="8dp"
+            custom:arc_central_text=""
+            custom:arc_central_text_size="14dp"
+            custom:arc_progress="0"
+            custom:arc_text_color="#FFFFFF" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLaunchedTimes_LaunchedFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
