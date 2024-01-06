@@ -2,7 +2,25 @@
 
 Designed and developed by: Farnaz Zinnah
 
-![UsageManagerApp Screenshot](#link-to-screenshot)
+## UsageManagerApp Screenshots
+
+![App Screenshot 1](https://github.com/fzinnah17/UsageManagerApp/blob/main/usageOne.jpeg)
+*Screenshot 1: Track time for time spent*
+
+![App Screenshot 2](https://github.com/fzinnah17/UsageManagerApp/blob/main/usageTwo.jpeg)
+*Screenshot 2: Number of times the app has been launched by the user*
+
+![App Screenshot 3](https://github.com/fzinnah17/UsageManagerApp/blob/main/usageThree.jpeg)
+*Screenshot 3: Wifi usage of all applications*
+
+![App Screenshot 4](https://github.com/fzinnah17/UsageManagerApp/blob/main/usageFour.jpeg)
+*Screenshot 4: Get daily, weekly, and monthly usage details*
+
+![App Screenshot 5](https://github.com/fzinnah17/UsageManagerApp/blob/main/usageFive.jpeg)
+*Screenshot 5: Impose a limit on usage of each app, get notified on over usage*
+
+![App Screenshot 6](https://github.com/fzinnah17/UsageManagerApp/blob/main/usageSix.jpeg)
+*Screenshot 4: Export usage data as a CSV file*
 
 ## About UsageManagerApp
 
