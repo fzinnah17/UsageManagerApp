@@ -1,0 +1,14 @@
+
+# Local Android configuration
+local.properties
+
+# Gradle / Android generated files
+.gradle/
+**/build/
+
+# IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store
